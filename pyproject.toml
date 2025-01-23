@@ -1,0 +1,13 @@
+[project]
+name = "BungleCat"
+version = "0.1.0"
+description = "基于aiotieba的贴吧机器人"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "aiotieba>=4.5.0",
+    "pydantic>=2.10.4",
+    "python-dotenv>=1.0.1",
+    "sanic[ext]>=24.6.0",
+    "tomli-w>=1.1.0",
+]

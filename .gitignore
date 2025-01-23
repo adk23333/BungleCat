@@ -1,0 +1,9 @@
+/*.lock
+**/*.py[cod]
+*$py.class
+.env
+.env.*
+.idea
+.python-version
+config.toml
+
