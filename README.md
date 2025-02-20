@@ -34,17 +34,26 @@ uv pip sync
 
 运行程序
 ```shell
-source .venv/bin/activate
-python server.py
+uv run server.py
+```
+
+# 配置文件
+```toml
+# config.toml
+bduss = "your bduss"
+fnames=["心灵鸡汤"]
+http_callback_url = ["http://127.0.0.1:3000/callback"]
+reverse_ws_url = ["http://example.com/ws", "ws://example.com"]
 ```
 
 # Feature
 - [X] HTTP 接口
+- [X] HTTP 回调接口
 - [X] WebSocket 接口
+- [X] 反向 WebSocket 接口
 - [X] 支持 aiotieba 所有接口
-- [X] HTTP 切换账号
-- [ ] WebSocket 切换账号
 - [ ] 实现自己的 api
+- [ ] 切换账号
 
 # 鸣谢
 本项目依赖以下开源项目：
